@@ -1,0 +1,26 @@
+{
+	"name": "justyork/yii2-uikit",
+	"description": "Uikit for Yii2",
+	"keywords": ["yii2", "uikit", "widgets"],
+	"type": "yii2-extension",
+	"license": "MIT",
+	"support": {
+		"source": "https://github.com/justyork/yii2-uikit",
+        "issues": "https://github.com/justyork/yii2-uikit/issues"
+	},
+	"authors": [
+        {
+            "name": "Iurii Shpinev",
+            "homepage" : "https://github.com/justyork"
+        }
+	],
+	"require": {
+        "yiisoft/yii2": ">=2.0.6",
+        "bower-asset/uikit": ">=3.*"
+    },
+	"autoload": {
+		"psr-4": {
+            "justyork\\uikit\\": ""
+        }
+	}
+}
